@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  background-color: #0a071b;
+  color: #f3f3f3;
+}
+
+.ant-tabs,
+.ant-descriptions-item-label,
+.ant-descriptions-item-content,
+.ant-descriptions-title {
+  color: white;
+}
+
+.btn-back:hover {
+  background-color: transparent;
+}

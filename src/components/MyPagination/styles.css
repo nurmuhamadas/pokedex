@@ -1,0 +1,25 @@
+.ant-pagination-item a {
+  color: #f3f3f3;
+}
+
+.ant-pagination-item.ant-pagination-item-active {
+  font-weight: 500;
+  color: #1890ff;
+  border-color: #1890ff;
+  background-color: transparent;
+}
+
+.ant-pagination-prev .ant-pagination-item-link,
+.ant-pagination-next .ant-pagination-item-link,
+.ant-pagination-jump-next.ant-pagination-jump-next-custom-icon
+  .ant-pagination-item-ellipsis,
+.ant-pagination-options-size-changer,
+.ant-pagination-options .ant-select-arrow {
+  color: #f3f3f3;
+}
+
+.ant-pagination-options
+  .ant-select:not(.ant-select-customize-input)
+  .ant-select-selector {
+  background-color: transparent;
+}
